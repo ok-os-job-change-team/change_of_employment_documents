@@ -22,7 +22,7 @@ jobs:
           cache: yarn
       - run: yarn install
       - name: Build pdf
-        run: yarn build:pdf
+        run: yarn build:pdf:resume
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
