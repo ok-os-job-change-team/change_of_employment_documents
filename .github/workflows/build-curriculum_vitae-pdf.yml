@@ -1,4 +1,4 @@
-name: release pdf
+name: release curriculum_vitae pdf
 
 on:
   pull_request:
