@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build:pdf": "md-to-pdf docs/curriculum_vitae.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/curriculum_vitae.md --config-file ./pdf-configs/config.js",
+    "build:pdf:resume": "md-to-pdf docs/resume.md --config-file ./pdf-configs/config.js"
   },
   "devDependencies": {
     "md-to-pdf": "^5.2.4"
